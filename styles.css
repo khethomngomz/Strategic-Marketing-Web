@@ -1,0 +1,97 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  line-height: 1.6;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  background-color: #0b132b;
+  color: white;
+  padding: 1rem;
+}
+
+.navbar .logo {
+  font-weight: bold;
+}
+
+.navbar .nav-links {
+  list-style: none;
+  display: flex;
+  gap: 1rem;
+}
+
+.navbar .nav-links li a {
+  color: white;
+  text-decoration: none;
+}
+
+.hero {
+  background: #1c2541;
+  color: white;
+  padding: 4rem 2rem;
+  text-align: center;
+}
+
+.hero h1 {
+  font-size: 2.5rem;
+  margin-bottom: 0.5rem;
+}
+
+.cta-btn {
+  background: #3a506b;
+  color: white;
+  padding: 0.75rem 1.5rem;
+  border: none;
+  text-decoration: none;
+  margin-top: 1rem;
+  display: inline-block;
+}
+
+.about, .services, .contact {
+  padding: 2rem;
+}
+
+.services ul {
+  list-style: square;
+  padding-left: 1.5rem;
+}
+
+footer {
+  background-color: #0b132b;
+  color: white;
+  text-align: center;
+  padding: 1rem;
+}
+
+footer a {
+  color: #5bc0be;
+  text-decoration: none;
+}
+
+/* Cookie Banner */
+.cookie-banner {
+  position: fixed;
+  bottom: 0;
+  background: #1c2541;
+  color: white;
+  width: 100%;
+  padding: 1rem;
+  text-align: center;
+  display: none;
+}
+
+.cookie-banner a {
+  color: #5bc0be;
+  text-decoration: underline;
+}
+
+.cookie-banner button {
+  background: #5bc0be;
+  color: #1c2541;
+  border: none;
+  margin-left: 1rem;
+  padding: 0.5rem 1rem;
+}
